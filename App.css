@@ -1,0 +1,144 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.705);
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+button {
+  background-color: #0a6cd4;
+}
+
+.resultado {
+  margin-top: 25px;
+  font-size: 18px;
+  text-align: center;
+}
+.cursos {
+  text-align: center;
+  padding: 40px;
+}
+
+.card {
+  background: #f4f4f4;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  width: 200px;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 20px;
+  font-weight: bold;
+  color: green;
+}
+.cursos {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.container-cursos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.card-curso {
+  background: #f1f1f1;
+  padding: 25px;
+  border-radius: 12px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card-curso:hover {
+  transform: scale(1.05);
+}
+
+.card-curso h3 {
+  margin-bottom: 10px;
+}
+
+.descricao {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.preco {
+  font-size: 22px;
+  font-weight: bold;
+  color: green;
+  margin-bottom: 15px;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background: #0056b3;
+}
+.seta {
+  width: 0;
+  height: 0;
+  margin: 10px auto;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 15px solid green;
+}
+.seta {
+  width: 0;
+  height: 0;
+  margin: 10px auto;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 15px solid green;
+  animation: subirDescer 1s infinite;
+}
+
+@keyframes subirDescer {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(5px); }
+  100% { transform: translateY(0); }
+}
